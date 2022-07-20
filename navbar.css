@@ -1,0 +1,52 @@
+#navbar{
+    width: 80%;
+    margin: auto;
+}
+
+#navbar>div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 40px;
+}
+
+#btn{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+#navbar>div>div>img{
+    width: 40%;
+}
+#btn>button{
+    font-size: larger; font-weight: bold; border-radius: 20px; border: 0px;background-color: white;cursor: pointer;
+}
+#btn>button:hover{
+    background-color: blue;
+}
+#btn>button:nth-child(4){
+    background-color: black; color: white;
+}
+#navbar>div+div{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#navbar>div+div>div{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;border-radius: 20px;
+    padding: 15px;
+}
+
+#more{
+    background-color: white;border-radius: 20px;width: 180px;font-weight: bolder;padding: -20px;cursor: pointer;
+}
+
+
