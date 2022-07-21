@@ -32,16 +32,17 @@
     height: 50px;
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 10px;
     cursor: pointer;
     font-weight: bolder;
+    
 }
 #navbar>div+div>div{
-    width: 15%;
+    width: 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;border-radius: 20px;
+    border: 1px solid black;border-radius: 10px;
     padding: 15px;
 }
 
