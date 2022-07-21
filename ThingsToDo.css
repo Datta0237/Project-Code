@@ -1,0 +1,30 @@
+#ulb{
+    width: 80%;
+    display: flex;
+    gap: 3px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+img{
+    width: 100%;
+}
+#photos{
+    background-color: black; color: white; border-radius: 10px;padding: 5px;
+    position: absolute;
+    bottom: 30px;left: 10px;
+}
+#photos_of_Pune{
+    width: 100%;
+    position: absolute;
+    top: 320px;
+    display: none;
+
+}
+#subphoto{
+    position: absolute;
+    left: 50px; bottom: 500px;
+
+}
