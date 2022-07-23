@@ -99,7 +99,36 @@
                 <div><h3>ISKON NVCC Temple</h3><p>Religious Sites</p></div>
                 <button class="btnslider" style="height: 10%;border-radius: 50px;margin: auto;">></button>
             </div>
-            
+        </div>
+        <div class="imgslider1">
+            <div>
+                <div><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/83/33/57/caption.jpg?w=400&h=300&s=1" alt=""></div>
+                <div> <h3>phoenix-market-city</h3><p>Shopping Malls</p></div>
+            </div>
+            <div>
+                <div><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/95/d3/de/photo4jpg.jpg?w=400&h=-1&s=1" alt=""></div>
+                <div><h3>Sinhagad Fort</h3><p>Castles</p></div>
+            </div>
+            <div class="first">
+                <div id="first"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/ed/e8/66/iskcon-nvcc-temple.jpg?w=400&h=300&s=1" alt=""></div>
+                <div><h3>ISKON NVCC Temple</h3><p>Religious Sites</p></div>
+                <button class="btnslider" style="height: 10%;border-radius: 50px;margin: auto;">></button>
+            </div>
+        </div>
+        <div class="imgslider1">
+            <div>
+                <div><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/83/33/57/caption.jpg?w=400&h=300&s=1" alt=""></div>
+                <div> <h3>phoenix-market-city</h3><p>Shopping Malls</p></div>
+            </div>
+            <div>
+                <div><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/95/d3/de/photo4jpg.jpg?w=400&h=-1&s=1" alt=""></div>
+                <div><h3>Sinhagad Fort</h3><p>Castles</p></div>
+            </div>
+            <div class="first">
+                <div id="first"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/ed/e8/66/iskcon-nvcc-temple.jpg?w=400&h=300&s=1" alt=""></div>
+                <div><h3>ISKON NVCC Temple</h3><p>Religious Sites</p></div>
+                <button class="btnslider" style="height: 10%;border-radius: 50px;margin: auto;">></button>
+            </div>
         </div>
         
     </div>
@@ -206,5 +235,25 @@
     "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/08/9b/10/rajgad-buruj.jpg?w=400&h=300&s=1"];
 
     
+</script>
+<script>
+document.getElementsByClassName("btnslider").addEventListener("click",SlideShow);
+
+function SlideShow(){
+    console.log("Hiii");
+}
+
+function SlideShow() {
+    let  slidePosition = 0;
+
+    let slides = document.getElementsByClassName("imgslider");
+    for (i=0;i<imgslider.length;i++) {
+        imgslider[i].style.display = "none";
+    }
+    slidePosition++;
+    if (slidePosition>imgslider.length) {slidePosition = 1}
+    slides[slidePosition-1].style.display = "block";
+    setTimeout(SlideShow, 2000); // Change image every 2 seconds
+} 
 </script>
 
