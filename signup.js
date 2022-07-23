@@ -15,9 +15,15 @@ function signedin () {
         emailID:emailID,
         password:password,
     };
-    userdata.push(obj);
+    if(obj.emailID===""&& obj.password===""){
+        alert("Enter value");
+    }else{
+        userdata.push(obj);
     alert("successfully signed up")
     window.location.href="file:///C:/Users/datta/OneDrive/Desktop/WEB%2020%20101/Project-Code/SignIn.html"
 
     localStorage.setItem("userData",JSON.stringify(userdata));
+
+    }
+    
 }

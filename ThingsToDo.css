@@ -1,0 +1,51 @@
+#ulb{
+    width: 80%;
+    display: flex;
+    gap: 3px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    z-index: 100;
+    
+}
+
+img{
+    width: 100%;
+}
+#photos{
+    background-color: black; color: white; border-radius: 10px;padding: 5px;
+    position: absolute;
+    bottom: 30px;left: 10px;
+}
+#photos_of_Pune{
+    width: 100%;
+    position: absolute;
+    top: 320px;
+    display: none;
+    z-index: 1000;
+
+}
+#subphoto{
+    position: absolute;
+    left: 50px; bottom: 500px;
+}
+.slider{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.imgslider{
+    
+    display: flex;
+    gap: 10px;
+}
+.imgslider img{
+    width: 100%;
+}
+.first{
+    position: relative;
+}
+.btnslider{
+    position: absolute;
+    right: 0px;top: 90px;
+}
