@@ -61,5 +61,11 @@
 #more{
     background-color: white;border-radius: 20px;width: 180px;font-weight: bolder;padding: -20px;cursor: pointer;
 }
-
+#clickedin{
+    background-color: black; color: white;cursor: pointer;height: 100%;
+}
+#clickedin:hover{
+    
+    background-color: blue;
+}
 
